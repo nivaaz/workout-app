@@ -1,0 +1,170 @@
+{
+    "A": {
+        "Monday":[
+        { 
+            "workout": "Cardio",
+            "time": "5-10 minutes",
+            "sets": 2,
+            "setType": "Warm up"
+        },
+        { 
+            "workout": "Glute kickback cross",
+            "reps": 30,
+            "sets": 2,
+            "setType": "Warm up",
+            "superset": true
+        },
+        { 
+            "workout": "Glute bridges",
+            "time": "60 seconds",
+            "sets": 2,
+            "weight": "none",
+            "superset": true,
+            "setType": "Warm up"
+        },
+        {
+            "workout": "Goblet Squats",
+            "sets": 4,
+            "reps": 15,
+            "weight": ["5kg"],
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        {
+            "workout": "Glute kickbacks",
+            "sets": 4,
+            "reps": [20, 15, 10, 8],
+            "weight": ["5kg", "10kg", "15kg", "25kg"],
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        {
+            "workout": "Leg press",
+            "sets": 4,
+            "reps": [15, 10, 8, 4],
+            "weight": ["5kg", "10kg", "15kg", "25kg"],
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        {
+            "workout": "Power Jumping Jacks",
+            "sets": 3,
+            "reps": 15,
+            "setType": "Superset",
+            "setGroup": "A"
+        }
+        ],
+        "Tuesday":[
+            { 
+            "workout": "Quadruped Leg Swings w/crossover",
+            "reps": 30,
+            "sets": 2,
+            "setType": "Warm up"
+        },
+        { 
+            "workout": "Prone Cobra Posture Holds",
+            "time": "60 seconds",
+            "sets": 2,
+            "setType": "Warm up"
+        },{
+            "workout": "Double Dumbbell Row",
+            "sets": 3,
+            "reps": 15,
+            "weight": "3kg",
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        {
+            "workout": "Power Jumping Jacks",
+            "sets": 3,
+            "reps": 15,
+            "setType": "Superset",
+            "setGroup": "A"
+        }
+        ],
+        "Wednesday":[
+            { 
+            "workout": "Quadruped Leg Swings w/crossover",
+            "reps": 30,
+            "sets": 2,
+            "setType": "Warm up"
+        },
+        { 
+            "workout": "Prone Cobra Posture Holds",
+            "time": "60 seconds",
+            "sets": 2,
+            "setType": "Warm up"
+        },{
+            "workout": "Double Dumbbell Row",
+            "sets": 3,
+            "reps": 15,
+            "weight": "3kg",
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        {
+            "workout": "Power Jumping Jacks",
+            "sets": 3,
+            "reps": 15,
+            "setType": "Superset",
+            "setGroup": "A"
+        }
+        ],
+        "Thursday":[
+            { 
+            "workout": "Quadruped Leg Swings w/crossover",
+            "reps": 30,
+            "sets": 2,
+            "setType": "Warm up"
+        },
+        { 
+            "workout": "Prone Cobra Posture Holds",
+            "time": "60 seconds",
+            "sets": 2,
+            "setType": "Warm up"
+        },{
+            "workout": "Double Dumbbell Row",
+            "sets": 3,
+            "reps": 15,
+            "weight": "3kg",
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        {
+            "workout": "Power Jumping Jacks",
+            "sets": 3,
+            "reps": 15,
+            "setType": "Superset",
+            "setGroup": "A"
+        }
+        ],
+        "Friday":[
+            { 
+            "workout": "Quadruped Leg Swings w/crossover",
+            "reps": 30,
+            "sets": 2,
+            "setType": "Warm up"
+        },
+        { 
+            "workout": "Prone Cobra Posture Holds",
+            "time": "60 seconds",
+            "sets": 2,
+            "setType": "Warm up"
+        },{
+            "workout": "Double Dumbbell Row",
+            "sets": 3,
+            "reps": 15,
+            "weight": "3kg",
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        {
+            "workout": "Power Jumping Jacks",
+            "sets": 3,
+            "reps": 15,
+            "setType": "Superset",
+            "setGroup": "A"
+        }
+        ]
+    }
+}
