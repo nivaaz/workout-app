@@ -1,4 +1,3 @@
-
 .item, 
 .itemCardio,
 .itemWarmUp, 
@@ -57,7 +56,10 @@
     display: flex;
 }
 @media screen and (max-width: 750px) { 
-    .item, .itemWarmUp, .itemCompleted{
+.item, 
+.itemCardio,
+.itemWarmUp, 
+.itemCompleted{
         width: 75vw;
         display: grid;
         grid-template-columns: unset;
