@@ -41,24 +41,19 @@ button{
   margin-bottom:1em ;
   margin-top:1em ;
 }
-.headings{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  max-width: 800px;
-  width: 95%;
-  text-align: left;
-  margin: auto;
-  margin-top: 1em;
-  font-size: small;
-  color: black;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 1em;
-}
 .playlist{
   cursor: pointer;
   padding: 16px;
   margin: 16px; 
   border: 1px solid black;
   margin: auto;
+}
+@media screen and (max-width: 750px) { 
+  .days{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  button{
+    margin: 8px;
+  }
 }

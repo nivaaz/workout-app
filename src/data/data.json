@@ -1,168 +1,338 @@
+
 {
     "A": {
         "Monday":[
         { 
             "workout": "Cardio",
-            "time": "5-10 minutes",
-            "sets": 2,
-            "setType": "Warm up"
+            "reps": [5],
+            "weight" : [0],
+            "setType": "WARM_UP"
         },
         { 
-            "workout": "Glute kickback cross",
-            "reps": 30,
-            "sets": 2,
-            "setType": "Warm up",
-            "superset": true
+            "workout": "Quadruped Leg Swings w/crossover",
+            "reps": [30, 30],
+            "weight" : [0, 0],
+            "setType": "WARM_UP",
+            "superset": "a"
         },
         { 
             "workout": "Glute bridges",
-            "time": "60 seconds",
+            "time": "25",
             "sets": 2,
             "weight": "none",
-            "superset": true,
-            "setType": "Warm up"
+            "setType": "WARM_UP"
         },
         {
-            "workout": "Goblet Squats",
+            "workout": "Standing Cable Abduction",
             "sets": 4,
-            "reps": 15,
-            "weight": ["5kg"],
+            "reps": [15, 15, 15, 15],
+            "weight": [20, 24, 27, 30],
             "setType": "Superset",
             "setGroup": "A"
         },
         {
-            "workout": "Glute kickbacks",
+            "workout": "Goblet Squat",
             "sets": 4,
-            "reps": [20, 15, 10, 8],
-            "weight": ["5kg", "10kg", "15kg", "25kg"],
+            "reps": [25, 30, 25, 45],
+            "weight": [5, 10, 15, 25],
             "setType": "Superset",
             "setGroup": "A"
         },
         {
             "workout": "Leg press",
-            "sets": 4,
-            "reps": [15, 10, 8, 4],
-            "weight": ["5kg", "10kg", "15kg", "25kg"],
-            "setType": "Superset",
+            "sets": 5,
+            "reps": [25, 20, 15, 10, 8],
+            "weight": [90, 110, 140, 160, 180],
             "setGroup": "A"
         },
         {
-            "workout": "Power Jumping Jacks",
+            "workout": "Lunges",
             "sets": 3,
-            "reps": 15,
+            "weight": [15, 25, 35],
+            "reps": [12, 12, 12],
+            "setGroup": "A"
+        },        
+        {
+            "workout": "Quad Extensions",
+            "sets": 3,
+            "weight": [50, 70, 90],
             "setType": "Superset",
+            "reps": [20, 20, 20],
+            "setGroup": "A"
+        },        
+        {
+            "workout": "Duck Walk",
+            "setType": "Superset",
+            "weight" : [0, 0, 0],
+            "sets": 3,
+            "reps": [15, 15, 15],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Wallsit",
+            "weight" : [0, 0],
+            "sets": 2,
+            "reps": [60, 60],
             "setGroup": "A"
         }
         ],
         "Tuesday":[
             { 
             "workout": "Quadruped Leg Swings w/crossover",
-            "reps": 30,
+            "reps": [30, 30],
+            "weight": [0, 0],
             "sets": 2,
-            "setType": "Warm up"
+            "setType": "WARM_UP"
         },
         { 
             "workout": "Prone Cobra Posture Holds",
-            "time": "60 seconds",
-            "sets": 2,
-            "setType": "Warm up"
+            "reps" : [20, 20],
+            "weight" : [0, 0],
+            "setType": "WARM_UP"
         },{
             "workout": "Double Dumbbell Row",
             "sets": 3,
-            "reps": 15,
-            "weight": "3kg",
+            "reps": [15, 15, 15],
+            "weight": [10, 15, 15],
             "setType": "Superset",
             "setGroup": "A"
         },
         {
             "workout": "Power Jumping Jacks",
             "sets": 3,
-            "reps": 15,
+            "reps": [15, 15, 15],
+            "weight" : [0, 0, 0],
             "setType": "Superset",
             "setGroup": "A"
+        },
+        {
+            "workout": "Dumbell Thurster",
+            "sets": 3,
+            "reps": [15, 15, 15],
+            "weight": [10, 15, 15],
+            "setType": "Superset",
+            "setGroup": "B"
+        },
+        {
+            "workout": "Kettlebell swings",
+            "sets": 3,
+            "reps": [15, 15, 15],
+            "weight": [15, 15, 15],
+            "setType": "Superset",
+            "setGroup": "B"
+        },
+        
+        {
+            "workout": "Lateral Raises",
+            "sets": 3,
+            "reps": [15, 15, 15],
+            "weight": [5, 5, 7.5],
+            "setType": "Superset",
+            "setGroup": "C"
+        },
+        {
+            "workout": "Power Jumping Jacks",
+            "sets": 3,
+            "reps": [15, 15, 15],
+            "weight" : [0, 0, 0],
+            "setType": "Superset",
+            "setGroup": "C"
+        },
+        
+        {
+            "workout": "Overhead tricep extensions",
+            "sets": 3,
+            "reps": [15, 15, 15],
+            "weight": [10, 12, 15],
+            "setType": "Superset",
+            "setGroup": "C"
+        },
+        {
+            "workout": "Kettlebell swings",
+            "sets": 3,
+            "reps": [15, 15, 15],
+            "weight": [15, 15, 15],
+            "setType": "Superset",
+            "setGroup": "C"
         }
         ],
         "Wednesday":[
             { 
             "workout": "Quadruped Leg Swings w/crossover",
-            "reps": 30,
+            "reps": [30, 30],
+            "weight": [0, 0],
             "sets": 2,
-            "setType": "Warm up"
+            "setType": "WARM_UP"
         },
         { 
-            "workout": "Prone Cobra Posture Holds",
-            "time": "60 seconds",
+            "workout": "Glute Bridges",
             "sets": 2,
-            "setType": "Warm up"
-        },{
-            "workout": "Double Dumbbell Row",
-            "sets": 3,
-            "reps": 15,
-            "weight": "3kg",
+            "weight": [0, 0],
+            "reps": [25, 25],
+            "setType": "WARM_UP"
+        },
+        {
+            "workout": "Jump Squats",
+            "weight": [0, 0, 0, 0],
+            "sets": 4,
+            "reps": [12, 12, 12, 12],
             "setType": "Superset",
             "setGroup": "A"
         },
         {
-            "workout": "Power Jumping Jacks",
-            "sets": 3,
-            "reps": 15,
+            "workout": "Smih Machine Step Ups",
+            "sets": 4,
+            "reps": [10, 10, 10, 10],
+            "weight": [10, 15, 20, 25],
             "setType": "Superset",
             "setGroup": "A"
+        },
+        
+        {
+            "workout": "In-N-Out Jumps",
+            "sets": 4,
+            "weight": [0, 0, 0, 0],
+            "reps": [10, 10, 10, 10],
+            "setType": "Superset",
+            "setGroup": "B"
+        },
+        {
+            "workout": "Kneeling Squats",
+            "sets": 4,
+            "reps": [15, 15, 15, 15],
+            "weight": [25, 30, 35, 40],
+            "setType": "Superset",
+            "setGroup": "A"
+        },
+        
+        {
+            "workout": "Lunge Jumps",
+            "sets": 4,
+            "weight": [0, 0, 0, 0],
+            "reps": [10, 10, 10, 10],
+            "setType": "Superset",
+            "setGroup": "C"
+        },
+        {
+            "workout": "Static Lunges",
+            "sets": 4,
+            "reps": [10, 10, 10, 10],
+            "weight": [10, 15, 20, 25],
+            "setType": "Superset",
+            "setGroup": "C"
         }
         ],
         "Thursday":[
             { 
             "workout": "Quadruped Leg Swings w/crossover",
-            "reps": 30,
+            "reps": [30, 30],
+            "weight": [0, 0],
             "sets": 2,
-            "setType": "Warm up"
+            "setType": "WARM_UP"
         },
         { 
             "workout": "Prone Cobra Posture Holds",
-            "time": "60 seconds",
+            "reps": [60, 60],
+            "weight": [0, 0],
             "sets": 2,
-            "setType": "Warm up"
+            "setType": "WARM_UP"
         },{
-            "workout": "Double Dumbbell Row",
+            "workout": "Curl to press extensions",
             "sets": 3,
-            "reps": 15,
-            "weight": "3kg",
-            "setType": "Superset",
+            "reps": [10, 10, 10],
+            "weight": [5,7, 10],
             "setGroup": "A"
         },
         {
-            "workout": "Power Jumping Jacks",
+            "workout": "Dumbell Tricep Kickbacks",
             "sets": 3,
-            "reps": 15,
-            "setType": "Superset",
+            "reps": [10, 10, 10],
+            "weight": [5,7, 10],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Lateral Raises",
+            "sets": 3,
+            "reps": [10, 10, 10],
+            "weight": [5,7, 10],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Push ups",
+            "sets": 3,
+            "reps": [10, 10, 10],
+            "weight": [0, 0],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Bicep curls",
+            "sets": 3,
+            "reps": [10, 10, 10],
+            "weight": [5, 7, 10],
+            "setGroup": "A"
+        },{  
+            "workout": "Tricep Dips",
+            "sets": 3,
+            "reps": [10, 10, 10],
+            "weight": [0, 0, 0],
+            "setGroup": "A"
+        },
+        {  
+            "workout": "Plank",
+            "sets": 3,
+            "weight": [0, 0, 0, 0],
+            "reps": [60, 60, 60],
             "setGroup": "A"
         }
         ],
         "Friday":[
             { 
             "workout": "Quadruped Leg Swings w/crossover",
-            "reps": 30,
+            "reps": [30, 30],
+            "weight": [0, 0],
             "sets": 2,
-            "setType": "Warm up"
+            "setType": "WARM_UP"
         },
         { 
-            "workout": "Prone Cobra Posture Holds",
-            "time": "60 seconds",
+            "workout": "Glute Bridges",
             "sets": 2,
-            "setType": "Warm up"
+            "weight": [0, 0],
+            "reps": [25, 25],
+            "setType": "WARM_UP"
         },{
-            "workout": "Double Dumbbell Row",
-            "sets": 3,
-            "reps": 15,
-            "weight": "3kg",
-            "setType": "Superset",
+            "workout": "Hip Thrusts",
+            "reps": [15, 10, 8, 6],
+            "weight": [65, 75, 85, 95],
             "setGroup": "A"
         },
         {
-            "workout": "Power Jumping Jacks",
-            "sets": 3,
-            "reps": 15,
-            "setType": "Superset",
+            "workout": "Abductor",
+            "reps": [20, 20, 20],
+            "weight": [30, 40, 50],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Deficit Reverse Lunges",
+            "reps": [10, 10, 10],
+            "weight": [10, 15, 20],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Deadlifts",
+            "reps": [20, 15, 10, 8],
+            "weight": [65, 75, 85, 95],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Cable Pull through",
+            "reps": [12, 12, 12],
+            "weight": [30, 30, 30],
+            "setGroup": "A"
+        },
+        {
+            "workout": "Hyperextensions",
+            "reps": [20, 20, 20],
+            "weight": [0, 0, 0, 0],
             "setGroup": "A"
         }
         ]

@@ -1,22 +1,33 @@
-.item, .itemCompleted{
+
+.item, .itemWarmUp, .itemCompleted{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    max-width: 800px;
-    width: 95%;
+    width: 90%;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
     border-radius: 2em;
     padding: 2em;
     text-align: left;
     margin: auto;
     margin-bottom: 1em;
-    background-color: #fff;
-    color: #8A00D4;
     font-weight: 500;
+    background-color: #fff;
+}
+.item{
+    color: #8A00D4;
 }
 .itemCompleted{
     background-color: #111;
     color: #eee;
 }
+.itemWarmUp{
+    color: #F782C2;
+}
 /* Buttons */
+.done, .notDone{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
 .done{
     background-color: transparent;
 }
@@ -24,8 +35,43 @@
     background-color: transparent;
     font-weight: bold;
     color: #8A00D4;
-    border: 1px soldi #8A00D4;
+    border: 1px solid #8A00D4;
 }
 .buttons{
     padding-bottom: 1em;
+}
+.workout{
+    font-weight: bold;
+}
+.reps, .weight{
+    color: #333;
+    display: flex;
+}
+@media screen and (max-width: 750px) { 
+    .item, .itemCompleted{
+        width: 75vw;
+        display: grid;
+        grid-template-columns: unset;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template: 'areas';
+        grid-template: 'a a a a'
+                            'b b b b'
+                            'c c d d'
+                            'e e e e';
+    }
+    .superSet{
+        grid-area: a;
+    }
+    .workout{
+        grid-area: b;
+    }
+    .reps{
+        grid-area: c;
+    }
+    .weight{
+        grid-area: d;
+    }
+    .done, .notDone{
+        grid-area: e;
+    }
 }
