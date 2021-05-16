@@ -36,9 +36,17 @@ function App() {
           workout={item?.workout}
           reps={item?.reps}
           weight={item?.weight}
+          setType={item?.setType}
      />   
       })}
-     
+     <Workout
+          key={"cardioo"}
+          superSet={false}
+          workout={"HIIT"}
+          reps={['20min']}
+          weight={[0]}
+          setType={'CARDIO'}
+     />   
     </div>
   );
 }

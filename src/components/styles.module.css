@@ -1,5 +1,8 @@
 
-.item, .itemWarmUp, .itemCompleted{
+.item, 
+.itemCardio,
+.itemWarmUp, 
+.itemCompleted{
     display: grid;
     width: 90%;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
@@ -19,7 +22,13 @@
     color: #eee;
 }
 .itemWarmUp{
-    color: #F782C2;
+    background-color: #F782C2;
+    color: #333;
+    
+}
+.itemCardio{
+    background-color: #F9C46B;
+    color: #333;
 }
 /* Buttons */
 .done, .notDone{
@@ -34,8 +43,8 @@
 .notDone{
     background-color: transparent;
     font-weight: bold;
-    color: #8A00D4;
-    border: 1px solid #8A00D4;
+    color: #555;
+    border: 1px solid #555;
 }
 .buttons{
     padding-bottom: 1em;
@@ -48,7 +57,7 @@
     display: flex;
 }
 @media screen and (max-width: 750px) { 
-    .item, .itemCompleted{
+    .item, .itemWarmUp, .itemCompleted{
         width: 75vw;
         display: grid;
         grid-template-columns: unset;

@@ -6,7 +6,7 @@
             "workout": "Cardio",
             "reps": [5],
             "weight" : [0],
-            "setType": "WARM_UP"
+            "setType": "CARDIO"
         },
         { 
             "workout": "Quadruped Leg Swings w/crossover",
@@ -77,6 +77,12 @@
         }
         ],
         "Tuesday":[
+            { 
+                "workout": "Cardio",
+                "reps": [5],
+                "weight" : [0],
+                "setType": "CARDIO"
+            },
             { 
             "workout": "Quadruped Leg Swings w/crossover",
             "reps": [30, 30],
@@ -158,6 +164,12 @@
         ],
         "Wednesday":[
             { 
+                "workout": "Cardio",
+                "reps": [5],
+                "weight" : [0],
+                "setType": "CARDIO"
+            },
+            { 
             "workout": "Quadruped Leg Swings w/crossover",
             "reps": [30, 30],
             "weight": [0, 0],
@@ -222,7 +234,12 @@
             "setGroup": "C"
         }
         ],
-        "Thursday":[
+        "Thursday":[{ 
+            "workout": "Cardio",
+            "reps": [5],
+            "weight" : [0],
+            "setType": "CARDIO"
+        },
             { 
             "workout": "Quadruped Leg Swings w/crossover",
             "reps": [30, 30],
@@ -286,6 +303,12 @@
         }
         ],
         "Friday":[
+            { 
+                "workout": "Cardio",
+                "reps": [5],
+                "weight" : [0],
+                "setType": "CARDIO"
+            },
             { 
             "workout": "Quadruped Leg Swings w/crossover",
             "reps": [30, 30],
